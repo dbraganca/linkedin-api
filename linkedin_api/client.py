@@ -167,5 +167,5 @@ class Client(object):
         if res.status_code != 200:
             raise Exception()
 
-        self._set_session_cookies(res.cookies)
-        self._cookie_repository.save(res.cookies, username)
+#         self._set_session_cookies(res.cookies)
+#         self._cookie_repository.save(res.cookies, username)
